@@ -10,9 +10,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  margin: 25px;
-}
 
 *,
 *::before,
@@ -21,7 +18,13 @@ body {
 }
 
 /** Nav section start */
+
 .wrapper {
+  padding-bottom: 30px;
+  margin: 25px 25px 0 25px;  
+}
+
+.nav-bar {
   display: flex;
 }
 
@@ -31,20 +34,24 @@ body {
   padding: 0;
 }
 
-.nav-bar {
+.nav-bar ul{
   flex: 10;
+}
+
+.menu {
+  display: block;
+  flex: 1;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #6070ff
 }
 
 .logo {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
-  color: #6070ff !important;
-}
-
-.menu {
-  display: block;
-  flex: 1;
 }
 
 .toogle-btn {
@@ -57,11 +64,6 @@ body {
 /** Nav section start */
 
 /**  Headline section start */
-
-.headline-text {
-  justify-self: center;
-}
-
 .headline-wrapper {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -69,38 +71,48 @@ body {
   background-image: url("../images/header_section_background.png");
   background-size: 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
+ 
+}
+
+.headline-container {
+  display: flex;
+  flex-direction: column;
+  width: 200;
+  margin: 0 25px 0 25px;    
 }
 
 .intro-text {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 40px;
   line-height: 60px;
   font-family: 'Poppins', sans-serif;
   color: #091e42;
   margin: 12px 0;
 }
 
-.headline-text p {
+.intro-message {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   color: #344563;
 }
 
-.headline-text h5 {
+.connect h5 {
   color: #6070ff;
 }
 
 .social {
+  display: flex;
   padding-left: 0%;
   list-style: none;
+  width: 200px;
+  margin: 0 25px 0 25px;  
 }
 
 .social-media {
   font-size: 20px;
-  display: inline-block;
-  padding: 5px;
   color: #505f79;
+  flex: 1;
 }
 
 .social-media a {
