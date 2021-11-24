@@ -10,7 +10,6 @@ html {
   box-sizing: border-box;
 }
 
-
 *,
 *::before,
 *::after {
@@ -21,7 +20,7 @@ html {
 
 .wrapper {
   padding-bottom: 30px;
-  margin: 25px 25px 0 25px;  
+  margin: 25px 25px 0 25px;
 }
 
 .nav-bar {
@@ -32,9 +31,6 @@ html {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.nav-bar ul{
   flex: 10;
 }
 
@@ -45,7 +41,7 @@ html {
 
 .logo a {
   text-decoration: none;
-  color: #6070ff
+  color: #6070ff;
 }
 
 .logo {
@@ -71,15 +67,13 @@ html {
   background-image: url("../images/header_section_background.png");
   background-size: 100%;
   background-position: center;
-  background-repeat: no-repeat; 
- 
+  background-repeat: no-repeat;
 }
 
 .headline-container {
   display: flex;
   flex-direction: column;
-  width: 200;
-  margin: 0 25px 0 25px;    
+  margin: 0 25px 0 25px;
 }
 
 .intro-text {
@@ -106,7 +100,7 @@ html {
   padding-left: 0%;
   list-style: none;
   width: 200px;
-  margin: 0 25px 0 25px;  
+  margin: 0 25px 0 25px;
 }
 
 .social-media {
