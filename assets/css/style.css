@@ -2,40 +2,36 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 
+/** Import Font  End **/
+
 html {
   background: #ffff;
   font-family: 'Poopins', sans-serif;
   box-sizing: border-box;
 }
 
-*, *:before, *::after {
+body {
+  margin: 25px;
+}
+
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
+/** Nav section start */
 .wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 10px;
+  display: flex;
 }
 
-.nav-bar ul{
+.nav-bar ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-}
-.nav-bar li {
-  flex: 1;
 }
 
-.menu-links {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-}
-
-.nav-bar .logo {
+.nav-bar {
   flex: 10;
 }
 
@@ -46,28 +42,9 @@ html {
   color: #6070ff !important;
 }
 
-a:link {
-  text-decoration: none;
-  color: dimgrey;
-}
-
-a:visited {
-  text-decoration: none;
-  color: dimgrey;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: dimgrey;
-}
-
-a:active {
-  text-decoration: underline;
-  color: dimgrey;
-}
-
 .menu {
-  display: none;
+  display: block;
+  flex: 1;
 }
 
 .toogle-btn {
@@ -77,24 +54,57 @@ a:active {
   margin: 6px 0;
 }
 
-@media all and (max-width:500px) { 
-  .wrapper {
-    display: flex;
-    max-width: 100vh;
-    
-  }
-  
-  .nav-bar {
-    flex: 5;
-  }
+/** Nav section start */
 
-  .menu {
-    display: block;
-    flex: 1;
-    align-self: baseline;
-  }
+/**  Headline section start */
 
-  .menu-links {
-    display: none;
-  }
+.headline-text {
+  justify-self: center;
 }
+
+.headline-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom-left-radius: 110px;
+  background-image: url("../images/header_section_background.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro-text {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 60px;
+  font-family: 'Poppins', sans-serif;
+  color: #091e42;
+  margin: 12px 0;
+}
+
+.headline-text p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #344563;
+}
+
+.headline-text h5 {
+  color: #6070ff;
+}
+
+.social {
+  padding-left: 0%;
+  list-style: none;
+}
+
+.social-media {
+  font-size: 20px;
+  display: inline-block;
+  padding: 5px;
+  color: #505f79;
+}
+
+.social-media a {
+  color: #505f79;
+}
+
+/**  Headline section start */
