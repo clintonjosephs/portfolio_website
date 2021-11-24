@@ -1,8 +1,7 @@
-# Hello Microverse
+# Microverse Portfolio
 
-In this project, you will set up a "Hello world" repository. No complex coding is required for this exercise. The goal here is to master all of the tools and best practices I learned . All about gitflow , linters.
 
-set up a new repository and prepare it for development using best practices.
+In this project, we set up a repository for our portfolio website as software developers. For now we just developed the mobile view based on the requirements given, and also to practice flexbox, background image and more on linters.
 
 ## Built With
 
@@ -19,7 +18,7 @@ Run the command below from the Terminal:
 
 ### git clone <URL> in your terminal
 
-### cd hello-microverse
+### cd microverse_portfolio
 
 ### start index.html
 
