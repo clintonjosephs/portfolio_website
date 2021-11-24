@@ -1,0 +1,100 @@
+/** Import Font **/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+html {
+  background: #ffff;
+  font-family: 'Poopins', sans-serif;
+  box-sizing: border-box;
+}
+
+*, *:before, *::after {
+  box-sizing: inherit;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.nav-bar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.nav-bar li {
+  flex: 1;
+}
+
+.menu-links {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
+.nav-bar .logo {
+  flex: 10;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #6070ff !important;
+}
+
+a:link {
+  text-decoration: none;
+  color: dimgrey;
+}
+
+a:visited {
+  text-decoration: none;
+  color: dimgrey;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: dimgrey;
+}
+
+a:active {
+  text-decoration: underline;
+  color: dimgrey;
+}
+
+.menu {
+  display: none;
+}
+
+.toogle-btn {
+  width: 35px;
+  height: 3px;
+  background-color: #6070ff;
+  margin: 6px 0;
+}
+
+@media all and (max-width:500px) { 
+  .wrapper {
+    display: flex;
+    max-width: 100vh;
+    
+  }
+  
+  .nav-bar {
+    flex: 5;
+  }
+
+  .menu {
+    display: block;
+    flex: 1;
+    align-self: baseline;
+  }
+
+  .menu-links {
+    display: none;
+  }
+}
