@@ -1,7 +1,7 @@
 # Microverse Portfolio
 
 
-In this project, we set up a repository for our portfolio website as software developers. For now we just developed the mobile view based on the requirements given, and also to practice flexbox, background image and more on linters.
+Today, we updated the work and about me section of my portfolio page, using css grid layout, flexbox with more of linters, html and css
 
 ## Built With
 
