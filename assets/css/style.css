@@ -121,6 +121,7 @@ html {
 /**  Headline section end */
 
 /** Works Section Start **/
+
 .works {
   background-color: #f7f7f9;
   margin: 0;
@@ -246,3 +247,142 @@ a.btn-see-project {
 }
 
 /** Works Section End **/
+
+/**About me **/
+.intro-text-about {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  font-family: 'Poppins', sans-serif;
+  color: #091e42;
+}
+
+.aboutme {
+  height: auto;
+  background:white;
+  margin: 0px 15px 80px 15px;
+  border-style: solid;
+  border-color:whitesmoke;
+  border-width: 5px;
+  border-top-right-radius: 70px;
+}
+
+.aboutme-wrapper {
+  padding-top: 100px;
+}
+
+a.btn-see-resume {
+  text-decoration: none;
+}
+
+.btn-see-resume {
+  border: 1px solid #396df2;
+  padding: 7px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: 300;
+  color: darkblue;
+}
+
+.btn_see_resume_contain {
+  padding-left: 25px;
+  padding-top: 25px;
+  height: 90px;
+}
+
+.language-grid-container {
+  margin: 0 20px 0 20px;
+  display: grid;
+  row-gap: 10px;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  padding-bottom: 50px;
+}
+
+.language-grid-container > div {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #091e42;
+}
+
+.grid-item1 {
+  text-align: left;
+}
+
+.grid-item2 {
+  text-align: right;
+}
+
+.grid-item3 {
+  margin: 0 5px 0 5px;
+  height: 70px;
+  background: #f7f7f99a;
+  border-radius: 3px;
+  grid-column:  span 2;
+}
+
+.grid-item4 {
+  margin: 0 5px 0 5px;
+  height: 70px;
+  background: #f7f7f99a;
+  border-radius: 3px;
+  grid-column:  span 2;
+}
+
+.grid-item5 {
+  margin: 0 5px 0 5px;
+  height: 70px;
+  background: #f7f7f99a;
+  border-radius: 3px;
+  grid-column:  span 2;
+}
+
+.grid-item6 {
+  padding-top: 20px;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid #7e8083;
+}
+
+.grid-item7 {
+  padding-top: 20px;
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid #7e8083;
+  text-align: right;
+}
+
+.grid-item8 {
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #7e8083;
+}
+
+.grid-item9 {
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #7e8083;
+  text-align: right;
+}
+
+.dflex {
+  width: 160px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: medium;
+}
+
+.dflex-item {
+  flex: 1;
+}
+
+.intro-message-about {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #344563;
+}
+/**About me end**/
