@@ -290,94 +290,19 @@ a.btn-see-resume {
   height: 90px;
 }
 
-.language-grid-container {
-  margin: 0 20px 0 20px;
-  display: grid;
-  row-gap: 10px;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto auto;
-  padding-bottom: 50px;
-}
-
-.language-grid-container > div {
-  font-size: 20px;
-  font-family: 'Poppins', sans-serif;
-  color: #091e42;
-}
-
-.grid-item1 {
-  text-align: left;
-}
-
-.grid-item2 {
-  text-align: right;
-}
-
-.grid-item3 {
-  margin: 0 5px 0 5px;
-  height: 70px;
-  background: #f7f7f99a;
-  border-radius: 3px;
-  grid-column:  span 2;
-}
-
-.grid-item4 {
-  margin: 0 5px 0 5px;
-  height: 70px;
-  background: #f7f7f99a;
-  border-radius: 3px;
-  grid-column:  span 2;
-}
-
-.grid-item5 {
-  margin: 0 5px 0 5px;
-  height: 70px;
-  background: #f7f7f99a;
-  border-radius: 3px;
-  grid-column:  span 2;
-}
-
-.grid-item6 {
-  padding-top: 20px;
-  align-items: center;
-  height: 70px;
-  border-bottom: 1px solid #7e8083;
-}
-
-.grid-item7 {
-  padding-top: 20px;
-  align-items: center;
-  height: 70px;
-  border-bottom: 1px solid #7e8083;
-  text-align: right;
-}
-
-.grid-item8 {
-  align-items: center;
-  height: 50px;
-  border-bottom: 1px solid #7e8083;
-}
-
-.grid-item9 {
-  align-items: center;
-  height: 50px;
-  border-bottom: 1px solid #7e8083;
-  text-align: right;
-}
-
 .dflex {
-  width: 160px;
+  background: #f7f7f99a;
+  border-radius: 10px;
   list-style: none;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 10px;
   padding-top: 10px;
   font-size: medium;
 }
 
 .dflex-item {
-  flex: 1;
+  padding-left: 10px;
 }
 
 .intro-message-about {
@@ -385,4 +310,36 @@ a.btn-see-resume {
   font-size: 15px;
   color: #344563;
 }
+
+.skills {
+  margin: 0 30px 0 30px;
+  padding-left: 0;
+  list-style: none;
+  padding-bottom: 50px;
+}
+
+.skills > li {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #091e42;
+  padding-bottom: 10px;
+}
+
+.header-skill {
+  padding-bottom: 20px;
+  height: 60px;
+}
+
+.lined_skill {
+  padding-top: 20px;
+  height: 70px;
+  border-bottom: 1px solid #7e8083;
+}
+
+.push {
+  float: right;
+}
+
+
+
 /**About me end**/
