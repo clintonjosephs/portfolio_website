@@ -10,7 +10,6 @@ html {
   box-sizing: border-box;
 }
 
-
 *,
 *::before,
 *::after {
@@ -19,7 +18,7 @@ html {
 
 /** Nav section start */
 .bar-section {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .wrapper {
@@ -72,7 +71,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   border-bottom-left-radius: 110px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .headline-container {
@@ -132,19 +131,19 @@ html {
 
 .works-flex {
   height: auto;
-  background:white;
-  margin: 0px 15px 80px 15px;
+  background: white;
+  margin: 0 15px 80px 15px;
   border-style: solid;
-  border-color:whitesmoke;
+  border-color: whitesmoke;
   border-width: 5px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
- 
 }
 
 .works-flex-item {
-  margin: 0px 10px 0px 10px;
+  margin: 0 10px 0 10px;
+
   /* border: solid; */
   justify-content: center;
 }
@@ -152,11 +151,11 @@ html {
 .work-image {
   /* background-image: url("../images/portfolio_snapshoot/snapshoot1.png"); */
   align-self: center;
+
   /* background-position: center;
   background-repeat: no-repeat; */
   border-radius: 10px;
   margin-top: 15px;
-  
 }
 
 .img-style {
@@ -184,7 +183,7 @@ html {
 .titles-item {
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
-  color:lightslategray;
+  color: lightslategray;
   font-weight: 500;
   list-style-image: url("../images/Counter.png");
   flex: 2;
@@ -226,7 +225,6 @@ html {
   color: #6070ff;
 }
 
-
 a.btn-see-project {
   text-decoration: none;
   color: #4053fc;
@@ -248,7 +246,7 @@ a.btn-see-project {
 
 /** Works Section End **/
 
-/**About me **/
+/** About me **/
 .intro-text-about {
   font-weight: 700;
   font-size: 40px;
@@ -259,10 +257,10 @@ a.btn-see-project {
 
 .aboutme {
   height: auto;
-  background:white;
-  margin: 0px 15px 80px 15px;
+  background: white;
+  margin: 0 15px 80px 15px;
   border-style: solid;
-  border-color:whitesmoke;
+  border-color: whitesmoke;
   border-width: 5px;
   border-top-right-radius: 70px;
 }
@@ -342,4 +340,4 @@ a.btn-see-resume {
 
 
 
-/**About me end**/
+/**  About me end  **/
