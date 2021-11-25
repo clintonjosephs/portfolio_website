@@ -5,10 +5,11 @@
 /** Import Font  End **/
 
 html {
-  background: #ffff;
+  background-color: #f7f7f9;
   font-family: 'Poopins', sans-serif;
   box-sizing: border-box;
 }
+
 
 *,
 *::before,
@@ -17,13 +18,17 @@ html {
 }
 
 /** Nav section start */
+.bar-section {
+  background-color: #ffffff;
+}
 
 .wrapper {
   padding-bottom: 30px;
-  margin: 25px 25px 0 25px;
+  margin: 10px 25px 0 25px;
 }
 
 .nav-bar {
+  padding-top: 10px;
   display: flex;
 }
 
@@ -61,13 +66,13 @@ html {
 
 /**  Headline section start */
 .headline-wrapper {
-  padding-top: 100px;
   padding-bottom: 100px;
-  border-bottom-left-radius: 110px;
   background-image: url("../images/header_section_background.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  border-bottom-left-radius: 110px;
+  background-color: #ffffff;
 }
 
 .headline-container {
@@ -113,4 +118,131 @@ html {
   color: #505f79;
 }
 
-/**  Headline section start */
+/**  Headline section end */
+
+/** Works Section Start **/
+.works {
+  background-color: #f7f7f9;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto;
+  padding-top: 80px;
+}
+
+.works-flex {
+  height: auto;
+  background:white;
+  margin: 0px 15px 80px 15px;
+  border-style: solid;
+  border-color:whitesmoke;
+  border-width: 5px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.works-flex-item {
+  margin: 0px 10px 0px 10px;
+  /* border: solid; */
+  justify-content: center;
+}
+
+.work-image {
+  /* background-image: url("../images/portfolio_snapshoot/snapshoot1.png"); */
+  align-self: center;
+  /* background-position: center;
+  background-repeat: no-repeat; */
+  border-radius: 10px;
+  margin-top: 15px;
+  
+}
+
+.img-style {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.intro-text-works {
+  font-weight: 650;
+  padding-top: 10px;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+}
+
+.titles-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  justify-self: flex-start;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.titles-item {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color:lightslategray;
+  font-weight: 500;
+  list-style-image: url("../images/Counter.png");
+  flex: 2;
+}
+
+.list-main {
+  list-style-type: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: #344563;
+  padding-right: 25px;
+  flex: 1;
+}
+
+.works-description {
+  padding-top: 10px;
+  margin-top: 0;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #344563;
+}
+
+.lang-container {
+  padding-top: 25px;
+  width: 70%;
+}
+
+.lang {
+  display: inline;
+  align-items: center;
+  background: #ebebff;
+  border-radius: 8px;
+  width: 49px;
+  height: 20px;
+  font-size: 15px;
+  padding: 4px 12px;
+  color: #6070ff;
+}
+
+
+a.btn-see-project {
+  text-decoration: none;
+  color: #4053fc;
+}
+
+.btn-see-project {
+  border: 1px solid #396df2;
+  padding: 7px;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.btn-see {
+  padding-top: 30px;
+  height: 90px;
+}
+
+/** Works Section End **/
