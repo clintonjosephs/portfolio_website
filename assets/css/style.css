@@ -357,6 +357,7 @@ a.btn-see-resume:active {
   align-items: center;
   padding-top: 10px;
   font-size: medium;
+  font-weight: 500;
 }
 
 .dflex-item {
@@ -397,6 +398,7 @@ a.btn-see-resume:active {
 }
 
 .header-skill {
+  font-weight: 500;
   padding-bottom: 20px;
   height: 60px;
 }
@@ -404,6 +406,7 @@ a.btn-see-resume:active {
 .lined_skill {
   margin: 10px;
   font-size: 20px;
+  font-weight: 500;
   font-family: 'Poppins', sans-serif;
   color: #091e42;
   padding-top: 10px;
