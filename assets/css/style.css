@@ -285,6 +285,7 @@ a.btn-see-project:active {
   margin-bottom: 5px;
 }
 
+
 .aboutme-wrapper {
   padding-top: 100px;
   background-color: white;
@@ -292,6 +293,7 @@ a.btn-see-project:active {
   border-color: whitesmoke;
   border-width: 5px;
   border-top-right-radius: 70px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
