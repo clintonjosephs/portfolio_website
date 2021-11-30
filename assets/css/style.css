@@ -285,7 +285,6 @@ a.btn-see-project:active {
   margin-bottom: 5px;
 }
 
-
 .aboutme-wrapper {
   padding-top: 100px;
   background-color: white;
@@ -438,7 +437,7 @@ a.btn-see-resume:active {
 
 .contact-wrapper-two {
   padding-top: 50px;
-  background-image:  url("../images/contact_form shapes_mobile.png");
+  background-image: url("../images/contact_form shapes_mobile.png");
   background-repeat: no-repeat;
   background-position-y: 30px;
   background-position-x: right;
@@ -458,10 +457,10 @@ a.btn-see-resume:active {
 }
 
 .contactme-body {
-   display: flex;
-   flex-direction: column;
-   margin: 25px 30px 0px 30px;
-   align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 25px 30px 0 30px;
+  align-items: center;
 }
 
 .contact-heading {
@@ -485,7 +484,7 @@ a.btn-see-resume:active {
 .contact-form {
   display: flex;
   flex-direction: column;
-  margin: 25px 30px 0px 30px;
+  margin: 25px 30px 0 30px;
   height: 500px;
 }
 
@@ -496,7 +495,7 @@ a.btn-see-resume:active {
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
   border: 1px solid #cfd8dc;
-  padding:16px;
+  padding: 16px;
   color: #172b4d;
 }
 
@@ -506,7 +505,7 @@ a.btn-see-resume:active {
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
   border: 1px solid #cfd8dc;
-  padding:16px;
+  padding: 16px;
   color: #b3bac5;
   margin-bottom: 15px;
 }
@@ -515,7 +514,7 @@ a.btn-see-resume:active {
   width: 140px;
   height: 48px;
   border-radius: 8px;
-  background: #ffffff;
+  background: #fff;
   color: #6070ff;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
@@ -532,7 +531,6 @@ a.btn-see-resume:active {
 
 .btn-effect:hover {
   border: 1px solid #396df2;
-  height:24px;
   background: #396df2;
   color: white;
   width: 140px;
@@ -541,7 +539,6 @@ a.btn-see-resume:active {
 }
 
 .btn-effect:active {
-  height:24px;
   background: navy;
   color: white;
   width: 140px;
