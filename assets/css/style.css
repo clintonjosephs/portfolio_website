@@ -9,7 +9,7 @@
 .btn-see-project {
   border: 1px solid #396df2;
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 17px;
   font-weight: 300;
   text-transform: capitalize;
@@ -22,33 +22,33 @@ a.btn-see-project {
 }
 
 .btn-see-project:disabled {
-  border: 2px solid grey;
+  border: 2px solid #5e6c84;
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 17px;
-  font-weight: 300;
+  font-weight: 500;
   background: white;
-  color: grey;
+  color: #5e6c84;
   font-family: 'Poppins', sans-serif;
 }
 
 a.btn-see-project:hover {
-  border: 1px solid #396df2;
+  border: 1px solid #6070FF;
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 17px;
-  font-weight: 300;
-  background: #396df2;
+  font-weight: 500;
+  background: #6070FF;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
 
 a.btn-see-project:active {
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 17px;
-  font-weight: 300;
-  background: navy;
+  font-weight: 500;
+  background: #2230D2;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -63,33 +63,33 @@ a.btn-see-resume {
 }
 
 a.btn-see-resume:disabled {
-  border: 2px solid grey;
+  border: 2px solid #5e6c84;
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 17px;
   font-weight: 300;
   background: white;
-  color: grey;
+  color: #5e6c84;
   font-family: 'Poppins', sans-serif;
 }
 
 a.btn-see-resume:hover {
-  border: 1px solid #396df2;
+  border: 1px solid #6070FF;
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 17px;
   font-weight: 300;
-  background: #396df2;
+  background: #6070FF;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
 
 a.btn-see-resume:active {
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 17px;
   font-weight: 300;
-  background: navy;
+  background: #2230D2;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -98,7 +98,7 @@ a.btn-see-resume:active {
   font-family: 'Poppins', sans-serif;
   border: 1px solid #396df2;
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 17px;
   font-weight: 300;
   color: #396df2;

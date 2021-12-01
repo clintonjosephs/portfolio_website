@@ -139,9 +139,10 @@ body {
 /*** Works section **/
 
 .works-flex {
+  border: 1px solid #dfe1e6;
   background: white;
   margin: 142px;
-  border-radius: 8px;
+  border-radius: 24px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -171,12 +172,13 @@ body {
 /* Text */
 
 .intro-text-works {
-  font-weight: 650;
+  font-weight: 700;
   padding-top: 10px;
-  font-size: 18px;
+  font-size: 40px;
+  line-height: 52px;
   font-family: 'Poppins', sans-serif;
-  color: #344563;
-  margin: 0 0 0 0;
+  color: #091E42;
+  margin: 12px 0px;
 }
 
 .titles-container {
@@ -185,7 +187,6 @@ body {
   padding-left: 0;
   justify-self: flex-start;
   padding-top: 10px;
-  width: 100%;
 }
 
 .titles-item {
@@ -194,7 +195,8 @@ body {
   color: lightslategray;
   font-weight: 500;
   list-style-image: url("../images/Counter.png");
-  flex: 2;
+  padding-right: 25px;
+
 }
 
 /* Text */
@@ -206,7 +208,6 @@ body {
   font-size: 18px;
   color: #344563;
   padding-right: 25px;
-  flex: 1;
   line-height: 24px;
 }
 
@@ -268,21 +269,25 @@ body {
 }
 
 .dflex {
-  background: #f7f7f99a;
-  border-radius: 10px;
+  background: #f7f7f9;
+  border-radius: 8px;
   list-style: none;
   align-items: center;
-  font-size: medium;
+  font-size: 15px;
   font-weight: 500;
-  width: 122px;
+  width: 130px;
   height: 120px;
+  padding-top: 12px;
+  padding-left: 12px;
   display: inline-block;
-  margin-left: 10px;
+  margin: 0px 12px;
 }
 
-.dflex-item {
-  padding-left: 10px;
+.style_skill {
+  width: 98px;
+  height: 24px;
 }
+
 
 .more_skills {
   margin: 0 30px 0 0;
@@ -436,17 +441,17 @@ body {
 }
 
 .btn-effect:disabled {
-  border: 2px solid grey;
+  border: 2px solid #5e6c84;
   background: white;
-  color: grey;
+  color: #5e6c84;
   width: 140px;
   height: 48px;
   border-radius: 8px;
 }
 
 .btn-effect:hover {
-  border: 1px solid #396df2;
-  background: #396df2;
+  border: 1px solid #6070FF;
+  background: #6070FF;
   color: white;
   width: 140px;
   height: 48px;
@@ -454,7 +459,7 @@ body {
 }
 
 .btn-effect:active {
-  background: navy;
+  background: #2230D2;
   color: white;
   width: 140px;
   height: 48px;
