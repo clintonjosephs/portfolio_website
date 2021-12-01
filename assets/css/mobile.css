@@ -60,7 +60,6 @@ body { margin: 0; }
   background-color: #6070ff;
   margin: 6px 0;
 }
-
 /** Nav section start */
 
 /**  Headline section start */
@@ -122,7 +121,6 @@ body { margin: 0; }
 .social-media a {
   color: #505f79;
 }
-
 /**  Headline section end */
 
 /** Works Section Start **/
@@ -156,8 +154,6 @@ body { margin: 0; }
 
 .works-flex-item {
   margin: 0 15px 0 15px;
-
-  /* border: solid; */
   justify-content: center;
 }
 
@@ -230,7 +226,6 @@ body { margin: 0; }
   color: #6070ff;
   margin: 5px;
 }
-
 /** Works Section End **/
 
 /** About me **/
@@ -312,11 +307,9 @@ body { margin: 0; }
 .push {
   float: right;
 }
-
 /**  About me end  **/
 
 /*** Contact me start ***/
-
 .contact-wrapper {
   background-color: #6070ff;
   background-size: 100%;
