@@ -5,6 +5,7 @@
 /** Import Font  End **/
 
 /** Shared Button Effects **/
+
 .btn-see-project {
   border: 1px solid #396df2;
   padding: 7px;
@@ -107,9 +108,11 @@ a.btn-see-resume:active {
   padding-top: 25px;
   height: 90px;
 }
+
 /** Button Effects End **/
 
 /** Shared About me section **/
+
 .intro-text-about {
   font-weight: 700;
   font-size: 40px;
@@ -124,4 +127,5 @@ a.btn-see-resume:active {
   font-size: 15px;
   color: #344563;
 }
+
 /** About me end **/
