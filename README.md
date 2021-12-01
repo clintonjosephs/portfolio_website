@@ -1,8 +1,12 @@
 # Microverse Portfolio
 
-![screenshot](assets/images/contact_form.png)
+![screenshot](assets/images/desktop1.png)
 
-Today, we updated the work and about me section of my portfolio page, using css grid layout, flexbox with more of linters, html and css
+![screenshot](assets/images/desktop3.png)
+
+![screenshot](assets/images/desktop4.png)
+
+We updated the protofolio project to implement the use of media queries for screen based css changes and to achieve Responsive Web Design. Making further use of Grid and Flexbox for layouts
 
 ## Built With
 
@@ -17,9 +21,11 @@ Today, we updated the work and about me section of my portfolio page, using css 
 
 Run the command below from the Terminal:
 
-### git clone <URL> in your terminal
+### navigate to your projects folder
 
-### cd microverse_portfolio
+### run git clone https://github.com/clintonjosephs/microverse_portfolio.git in your terminal
+
+### run cd microverse_portfolio
 
 ### start index.html
 
@@ -49,5 +55,4 @@ Give a ⭐️ if you like this project!
 - My learning and coding partners
 
 ## 📝 License
-
-This project is MIT licensed.
+This project is [MIT](LICENSE) licensed.

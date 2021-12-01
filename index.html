@@ -4,7 +4,9 @@
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Clinton Mbonu</title>
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/mobile.css" media="screen and (max-width: 992px) ">
+        <link rel="stylesheet" href="assets/css/desktop.css" media="screen and (min-width: 992px) ">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -13,6 +15,9 @@
                 <nav class="nav-bar">
                     <ul>
                         <li class="logo"><a href="#">My Logo</a></li>
+                        <li class="menu-desktop"><a href="#">Portfolio</a></li>
+                        <li class="menu-desktop"><a href="#">About</a></li>
+                        <li class="menu-desktop"><a href="#">Contact</a></li>
                     </ul>
                     <div class="menu">
                             <div class="toogle-btn"></div>
@@ -25,179 +30,193 @@
         <section class="welcome-section">
             <div class="headline-wrapper">
                 <div class="headline-container">
-                    <div class="intro-text">I’m Clinton<br> Glad to see you!</div>
-                    <div class="intro-message">I’m a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</div>
+                    <h2 class="intro-text">I’m Clinton<br> Glad to see you!</h2>
+                    <p class="intro-message">I’m a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                     <div class="connect">
-                        <h5>LET'S CONNECT</h5>
+                        <h3>LET'S CONNECT</h3>
                     </div>
+                    <ul class="social">
+                        <li class="social-media"><a href="https://twitter.com/clintonmbonu_"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-media"><a href="https://linkedin.com/in/clinton-mbonu"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-medium"></i></a></li>
+                        <li class="social-media"><a href="https://github.com/clintonjosephs"><i class="fa fa-github"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-angellist"></i></a></li>
+                    </ul>
                 </div>
-                <ul class="social">
-                    <li class="social-media"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-medium"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-github"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-angellist"></i></a></li>
-                </ul>
             </div>
         </section>
         <section class="works">
             <div class="works-flex">
-                <div class="works-flex-item work-image">
+                <div class="works-flex-item work-image start">
                     <img src="assets/images/portfolio_snapshoot/snapshoot1.png" class="img-style" alt="tonic works" />
+                    <img src="assets/images/portfolio_snapshoot/snapshoot_desktop1.png" class="img-style-desktop" alt="tonic works" />
                 </div>
-                <div class="works-flex-item">
-                    <h3 class="intro-text-works">Tonic</h3>
-                </div>
-                <ul class=" works-flex-item titles-container">
-                    <li class="list-main">CANOPY</li>
-                    <li class="titles-item">Back End Dev</li>
-                    <li class="titles-item">2015</li>
-                </ul>
-                <p class="works-flex-item works-description">
-                   A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <div class="works-flex-item">
-                    <ul class="lang-container">
-                        <li class="lang">html</li>
-                        <li class="lang">css</li>
-                        <li class="lang">javascript</li>
+                <div class="wcontainer end">
+                    <div class="works-flex-item">
+                        <h3 class="intro-text-works">Tonic</h3>
+                    </div>
+                    <ul class=" works-flex-item titles-container">
+                        <li class="list-main">CANOPY</li>
+                        <li class="titles-item">Back End Dev</li>
+                        <li class="titles-item">2015</li>
                     </ul>
-                </div>
-                <div class="works-flex-item">
-                    <div class="btn-see">
-                        <a href="#" class="btn-see-project">See project</a>
+                    <p class="works-flex-item works-description">
+                       A daily selection of privately personalized reads; no accounts or sign-ups required.
+                    </p>
+                    <div class="works-flex-item">
+                        <ul class="lang-container">
+                            <li class="lang">html</li>
+                            <li class="lang">css</li>
+                            <li class="lang">javascript</li>
+                        </ul>
+                    </div>
+                    <div class="works-flex-item">
+                        <div class="btn-see">
+                            <a href="#" class="btn-see-project">See project</a>
+                        </div>
                     </div>
                 </div>
+                
             </div>
 
             <div class="works-flex">
-                <div class="works-flex-item work-image">
+                <div class="works-flex-item work-image end">
                     <img src="assets/images/portfolio_snapshoot/snapshoot2.png" class="img-style" alt="tonic works" />
+                    <img src="assets/images/portfolio_snapshoot/snapshoot_desktop2.png" class="img-style-desktop" alt="tonic works" />
                 </div>
-                <div class="works-flex-item">
-                    <h3 class="intro-text-works">Multi-Post <br/> Stories</h3>
-                </div>
-                <ul class=" works-flex-item titles-container">
-                    <li class="list-main">CANOPY</li>
-                    <li class="titles-item">Back End Dev</li>
-                    <li class="titles-item">2015</li>
-                </ul>
-                <p class="works-flex-item works-description">
-                   A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <div class="works-flex-item">
-                    <ul class="lang-container">
-                        <li class="lang">html</li>
-                        <li class="lang">css</li>
-                        <li class="lang">javascript</li>
+                <div class="wcontainer start">
+                    <div class="works-flex-item">
+                        <h3 class="intro-text-works">Multi-Post Stories</h3>
+                    </div>
+                    <ul class=" works-flex-item titles-container">
+                        <li class="list-main">FACEBOOK</li>
+                        <li class="titles-item">Full Stack Dev</li>
+                        <li class="titles-item">2015</li>
                     </ul>
-                </div>
-                <div class="works-flex-item">
-                    <div class="btn-see">
-                        <a href="#" class="btn-see-project">See project</a>
+                    <p class="works-flex-item works-description">
+                        Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
+                    </p>
+                    <div class="works-flex-item">
+                        <ul class="lang-container">
+                            <li class="lang">html</li>
+                            <li class="lang">Ruby on rails</li>
+                            <li class="lang">css</li>
+                            <li class="lang">javascript</li>
+                        </ul>
+                    </div>
+                    <div class="works-flex-item">
+                        <div class="btn-see">
+                            <a href="#" class="btn-see-project">See project</a>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="works-flex">
-                <div class="works-flex-item work-image">
+                <div class="works-flex-item work-image start">
                     <img src="assets/images/portfolio_snapshoot/snapshoot3.png" class="img-style" alt="tonic works" />
+                    <img src="assets/images/portfolio_snapshoot/snapshoot_desktop3.png" class="img-style-desktop" alt="tonic works" />
                 </div>
-                <div class="works-flex-item">
-                    <h3 class="intro-text-works">Tonic</h3>
-                </div>
-                <ul class=" works-flex-item titles-container">
-                    <li class="list-main">CANOPY</li>
-                    <li class="titles-item">Back End Dev</li>
-                    <li class="titles-item">2015</li>
-                </ul>
-                <p class="works-flex-item works-description">
-                   A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <div class="works-flex-item">
-                    <ul class="lang-container">
-                        <li class="lang">html</li>
-                        <li class="lang">css</li>
-                        <li class="lang">javascript</li>
+                <div class="wcontainer end">
+                    <div class="works-flex-item">
+                        <h3 class="intro-text-works">Facebook 360</h3>
+                    </div>
+                    <ul class="works-flex-item titles-container">
+                        <li class="list-main">FACEBOOK</li>
+                        <li class="titles-item">Full Stack Dev</li>
+                        <li class="titles-item">2015</li>
                     </ul>
-                </div>
-                <div class="works-flex-item">
-                    <div class="btn-see">
-                        <a href="#" class="btn-see-project">See project</a>
+                    <p class="works-flex-item works-description">
+                        Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
+                    </p>
+                    <div class="works-flex-item">
+                        <ul class="lang-container">
+                            <li class="lang">html</li>
+                            <li class="lang">Ruby on rails</li>
+                            <li class="lang">css</li>
+                            <li class="lang">javascript</li>
+                        </ul>
+                    </div>
+                    <div class="works-flex-item">
+                        <div class="btn-see">
+                            <a href="#" class="btn-see-project">See project</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="works-flex">
-                <div class="works-flex-item work-image">
+                <div class="works-flex-item work-image end">
                     <img src="assets/images/portfolio_snapshoot/snapshoot4.png" class="img-style" alt="tonic works" />
+                    <img src="assets/images/portfolio_snapshoot/snapshoot_desktop4.png" class="img-style-desktop" alt="tonic works" />
                 </div>
-                <div class="works-flex-item">
-                    <h3 class="intro-text-works">Multi-Post <br/> Stories</h3>
-                </div>
-                <ul class=" works-flex-item titles-container">
-                    <li class="list-main">CANOPY</li>
-                    <li class="titles-item">Back End Dev</li>
-                    <li class="titles-item">2015</li>
-                </ul>
-                <p class="works-flex-item works-description">
-                   A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-                <div class="works-flex-item">
-                    <ul class="lang-container">
-                        <li class="lang">html</li>
-                        <li class="lang">css</li>
-                        <li class="lang">javascript</li>
+                <div class="wcontainer start">
+                    <div class="works-flex-item">
+                        <h2 class="intro-text-works">Uber Navigation</h2>
+                    </div>
+                    <ul class="works-flex-item titles-container">
+                        <li class="list-main">Uber</li>
+                        <li class="titles-item">Lead Developer</li>
+                        <li class="titles-item">2018</li>
                     </ul>
-                </div>
-                <div class="works-flex-item">
-                    <div class="btn-see">
-                        <a href="#" class="btn-see-project">See project</a>
+                    <p class="works-flex-item works-description">
+                        A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
+                    </p>
+                    <div class="works-flex-item">
+                        <ul class="lang-container">
+                            <li class="lang">html</li>
+                            <li class="lang">Ruby on rails</li>
+                            <li class="lang">css</li>
+                            <li class="lang">javascript</li>
+                        </ul>
+                    </div>
+                    <div class="works-flex-item">
+                        <div class="btn-see">
+                            <a href="#" class="btn-see-project">See project</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="aboutme">
             <div class="aboutme-wrapper">
-                <div class="headline-container">
+                <div class="about-headline">
                     <h2 class="intro-text-about">About<br> Myself</h2>
                     <p class="intro-message-about">Hello, I’m a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                     <div class="connect">
-                        <h5>LET'S CONNECT</h5>
+                        <h3>LET'S CONNECT</h3>
+                    </div>
+                    <ul class="social">
+                        <li class="social-media"><a href="https://twitter.com/clintonmbonu_"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-media"><a href="https://linkedin.com/in/clinton-mbonu"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-medium"></i></a></li>
+                        <li class="social-media"><a href="https://github.com/clintonjosephs"><i class="fa fa-github"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-angellist"></i></a></li>
+                    </ul>
+                    <div class="btn_see_resume_contain" >
+                        <a href="#" class="btn-see-resume">Get my resume</a>
                     </div>
                 </div>
-                <ul class="social">
-                    <li class="social-media"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-medium"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-github"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-angellist"></i></a></li>
-                </ul>
-                <div class="btn_see_resume_contain" >
-                    <a href="#" class="btn-see-resume">Get my resume</a>
-                </div>
+              
+               
                 <ul class="main-skills">
                     <li>
                         <ul class="skills">
-                        <li class="header-skill">
-                            Languages
-                            <i class="fa fa-chevron-down push"></i>
-                        </li>
-                        <li>
-                            <div class="dflex">
-                            <div class="dflex-item"><img src="assets/images/js.png" alt="javascript" /></div>
-                            <div class="dflex-item"> Javascript</div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="dflex">
-                            <div class="dflex-item"><img src="assets/images/html.png" alt="javascript" /></div>
-                            <div class="dflex-item"> HTML</div>
-                            </div>
-                        </li>
-                        <li class="dflex">
-                            <div class="dflex-item"><img src="assets/images/css.png" alt="javascript" /></div>
-                            <div class="dflex-item"> CSS</div>
-                        </li>
+                            <li class="header-skill">
+                                Languages
+                                <i class="fa fa-chevron-down push"></i>
+                            </li>
+                            <li class="dflex">
+                                    <div class="dflex-item"><img src="assets/images/js.png" alt="javascript" /></div>
+                                    <div class="dflex-item style_skill"> Javascript</div>
+                            </li>
+                            <li class="dflex">
+                                <div class="dflex-item"><img src="assets/images/html.png" alt="javascript" /></div>
+                                <div class="dflex-item still_skill"> HTML</div>
+                            </li>
+                            <li class="dflex">
+                                <div class="dflex-item"><img src="assets/images/css.png" alt="javascript" /></div>
+                                <div class="dflex-item style_skill"> CSS</div>
+                            </li>
                         </ul>
                     </li>
                     <li>
