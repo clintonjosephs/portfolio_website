@@ -2,9 +2,6 @@
 
 ![screenshot](assets/images/desktop1.png)
 
-
-![screenshot](assets/images/desktop2.png)
-
 ![screenshot](assets/images/desktop3.png)
 
 ![screenshot](assets/images/desktop4.png)
