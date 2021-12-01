@@ -73,8 +73,8 @@ body {
 }
 
 /*** Nav section end **/
-
 /** Headline section start **/
+
 .headline-wrapper {
   background-image: url("../images/header_section_background_desktop.png");
   background-size: contain;
@@ -241,7 +241,6 @@ body {
   letter-spacing: 0.03em;
 }
 /**** Works section end ****/
-
 /*** About section **/
 .aboutme {
   height: 600px;
