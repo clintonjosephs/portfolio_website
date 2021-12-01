@@ -1,8 +1,15 @@
 # Microverse Portfolio
 
-![screenshot](assets/images/contact_form.png)
+![screenshot](assets/images/desktop1.png)
 
-Today, we updated the work and about me section of my portfolio page, using css grid layout, flexbox with more of linters, html and css
+
+![screenshot](assets/images/desktop2.png)
+
+![screenshot](assets/images/desktop3.png)
+
+![screenshot](assets/images/desktop4.png)
+
+We updated the protofolio project to implement the use of media queries for screen based css changes and to achieve Responsive Web Design. Making further use of Grid and Flexbox for layouts
 
 ## Built With
 
