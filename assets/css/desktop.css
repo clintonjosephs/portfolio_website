@@ -49,8 +49,6 @@ body {
   text-decoration: none;
 }
 
-
-
 .logo {
   font-size: 18px;
   font-weight: 700;
@@ -60,8 +58,6 @@ body {
   transform: rotateX(360deg);
   transition: transform 2s ease-in-out;
 }
-
-
 
 .logo a {
   color: #6070ff;
@@ -166,16 +162,13 @@ body {
   display: none;
 }
 
-.img-style-desktop { 
-  transition: all .2s ease-in-out; 
-}
-
-.img-style-desktop:hover { 
-  transform: scale(1.1); 
-}
-
 .img-style-desktop {
   display: block;
+  transition: all 0.2s ease-in-out;
+}
+
+.img-style-desktop:hover {
+  transform: scale(1.1);
 }
 
 .work-image {
