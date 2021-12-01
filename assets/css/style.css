@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 /** Import Font  End **/
 
- /** Button Effects **/
+ /** Shared Button Effects **/
 .btn-see-project {
     border: 1px solid #396df2;
     padding: 7px;
@@ -109,7 +109,7 @@
   
    /** Button Effects End**/
 
-   /**About me section **/
+   /** Shared About me section **/
   
   .intro-text-about {
     font-weight: 700;

@@ -202,6 +202,7 @@ html {
     color: #344563;
     padding-right: 25px;
     flex: 1;
+    line-height: 24px;
   }
   
   .works-description {
