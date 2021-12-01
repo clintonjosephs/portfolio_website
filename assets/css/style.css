@@ -1,127 +1,130 @@
 /** Import Font **/
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
 /** Import Font  End **/
 
- /** Shared Button Effects **/
+/** Shared Button Effects **/
 .btn-see-project {
-    border: 1px solid #396df2;
-    padding: 7px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-weight: 300;
-    text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  a.btn-see-project {
-    text-decoration: none;
-    color: #4053fc;
-  }
-  
-  .btn-see-project:disabled {
-    border: 2px solid grey;
-    padding: 7px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-weight: 300;
-    background: white;
-    color: grey;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  a.btn-see-project:hover {
-    border: 1px solid #396df2;
-    padding: 7px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-weight: 300;
-    background: #396df2;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  a.btn-see-project:active {
-    padding: 7px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-weight: 300;
-    background: navy;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .btn-see {
-    padding-top: 30px;
-    height: 90px;
-  }
+  border: 1px solid #396df2;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 300;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+}
 
-  a.btn-see-resume {
-    text-decoration: none;
-  }
-  
-  a.btn-see-resume:disabled {
-    border: 2px solid grey;
-    padding: 7px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-weight: 300;
-    background: white;
-    color: grey;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  a.btn-see-resume:hover {
-    border: 1px solid #396df2;
-    padding: 7px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-weight: 300;
-    background: #396df2;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  a.btn-see-resume:active {
-    padding: 7px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-weight: 300;
-    background: navy;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .btn-see-resume {
-    font-family: 'Poppins', sans-serif;
-    border: 1px solid #396df2;
-    padding: 7px;
-    border-radius: 10px;
-    font-size: 17px;
-    font-weight: 300;
-    color: #396df2;
-  }
-  
-  .btn_see_resume_contain {
-    padding-top: 25px;
-    height: 90px;
-  }
-  
-   /** Button Effects End**/
+a.btn-see-project {
+  text-decoration: none;
+  color: #4053fc;
+}
 
-   /** Shared About me section **/
-  
-  .intro-text-about {
-    font-weight: 700;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    color: #091e42;
-    margin-bottom: 5px;
-  }
-  .intro-message-about {
-    margin-top: 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    color: #344563;
-  }
-   /** About me end **/
+.btn-see-project:disabled {
+  border: 2px solid grey;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 300;
+  background: white;
+  color: grey;
+  font-family: 'Poppins', sans-serif;
+}
+
+a.btn-see-project:hover {
+  border: 1px solid #396df2;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 300;
+  background: #396df2;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+a.btn-see-project:active {
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 300;
+  background: navy;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-see {
+  padding-top: 30px;
+  height: 90px;
+}
+
+a.btn-see-resume {
+  text-decoration: none;
+}
+
+a.btn-see-resume:disabled {
+  border: 2px solid grey;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 300;
+  background: white;
+  color: grey;
+  font-family: 'Poppins', sans-serif;
+}
+
+a.btn-see-resume:hover {
+  border: 1px solid #396df2;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 300;
+  background: #396df2;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+a.btn-see-resume:active {
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 300;
+  background: navy;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-see-resume {
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid #396df2;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 300;
+  color: #396df2;
+}
+
+.btn_see_resume_contain {
+  padding-top: 25px;
+  height: 90px;
+}
+
+/** Button Effects End **/
+
+/** Shared About me section **/
+
+.intro-text-about {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  color: #091e42;
+  margin-bottom: 5px;
+}
+
+.intro-message-about {
+  margin-top: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #344563;
+}
+
+/** About me end **/
