@@ -33,12 +33,12 @@ a.btn-see-project {
 }
 
 a.btn-see-project:hover {
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   padding: 7px;
   border-radius: 8px;
   font-size: 17px;
   font-weight: 500;
-  background: #6070FF;
+  background: #6070ff;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -48,7 +48,7 @@ a.btn-see-project:active {
   border-radius: 8px;
   font-size: 17px;
   font-weight: 500;
-  background: #2230D2;
+  background: #2230d2;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -74,12 +74,12 @@ a.btn-see-resume:disabled {
 }
 
 a.btn-see-resume:hover {
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   padding: 7px;
   border-radius: 8px;
   font-size: 17px;
   font-weight: 300;
-  background: #6070FF;
+  background: #6070ff;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
@@ -89,7 +89,7 @@ a.btn-see-resume:active {
   border-radius: 8px;
   font-size: 17px;
   font-weight: 300;
-  background: #2230D2;
+  background: #2230d2;
   color: white;
   font-family: 'Poppins', sans-serif;
 }

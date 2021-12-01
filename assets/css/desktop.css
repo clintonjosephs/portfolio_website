@@ -177,8 +177,8 @@ body {
   font-size: 40px;
   line-height: 52px;
   font-family: 'Poppins', sans-serif;
-  color: #091E42;
-  margin: 12px 0px;
+  color: #091e42;
+  margin: 12px 0;
 }
 
 .titles-container {
@@ -196,7 +196,6 @@ body {
   font-weight: 500;
   list-style-image: url("../images/Counter.png");
   padding-right: 25px;
-
 }
 
 /* Text */
@@ -280,14 +279,13 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   display: inline-block;
-  margin: 0px 12px;
+  margin: 0 12px;
 }
 
 .style_skill {
   width: 98px;
   height: 24px;
 }
-
 
 .more_skills {
   margin: 0 30px 0 0;
@@ -450,8 +448,8 @@ body {
 }
 
 .btn-effect:hover {
-  border: 1px solid #6070FF;
-  background: #6070FF;
+  border: 1px solid #6070ff;
+  background: #6070ff;
   color: white;
   width: 140px;
   height: 48px;
@@ -459,7 +457,7 @@ body {
 }
 
 .btn-effect:active {
-  background: #2230D2;
+  background: #2230d2;
   color: white;
   width: 140px;
   height: 48px;
