@@ -54,6 +54,9 @@ body {
   font-weight: 700;
   line-height: 20px;
   flex: 10;
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+  transition: transform 2s ease-in-out;
 }
 
 .logo a {
@@ -161,6 +164,11 @@ body {
 
 .img-style-desktop {
   display: block;
+  transition: all 0.2s ease-in-out;
+}
+
+.img-style-desktop:hover {
+  transform: scale(1.1);
 }
 
 .work-image {
