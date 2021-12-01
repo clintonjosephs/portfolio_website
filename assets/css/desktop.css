@@ -49,12 +49,19 @@ body {
   text-decoration: none;
 }
 
+
+
 .logo {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   flex: 10;
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+  transition: transform 2s ease-in-out;
 }
+
+
 
 .logo a {
   color: #6070ff;
@@ -157,6 +164,14 @@ body {
 
 .img-style {
   display: none;
+}
+
+.img-style-desktop { 
+  transition: all .2s ease-in-out; 
+}
+
+.img-style-desktop:hover { 
+  transform: scale(1.1); 
 }
 
 .img-style-desktop {
