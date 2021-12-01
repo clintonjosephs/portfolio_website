@@ -21,9 +21,11 @@ We updated the protofolio project to implement the use of media queries for scre
 
 Run the command below from the Terminal:
 
-### git clone <URL> in your terminal
+### navigate to your projects folder
 
-### cd microverse_portfolio
+### run git clone https://github.com/clintonjosephs/microverse_portfolio.git in your terminal
+
+### run cd microverse_portfolio
 
 ### start index.html
 
