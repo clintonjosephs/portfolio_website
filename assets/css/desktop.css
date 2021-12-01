@@ -15,7 +15,6 @@ body {
 *::after {
   box-sizing: inherit;
 }
-
 /** Nav section start */
 
 .menu {
@@ -71,10 +70,9 @@ body {
   align-content: center;
   padding-right: 12px;
 }
-
 /*** Nav section end **/
-/** Headline section start **/
 
+/** Headline section start **/
 .headline-wrapper {
   background-image: url("../images/header_section_background_desktop.png");
   background-size: contain;
@@ -132,7 +130,6 @@ body {
 .social-media a {
   color: #505f79;
 }
-
 /*** Headline section End ***/
 
 /*** Works section **/
@@ -167,7 +164,6 @@ body {
 }
 
 /* Text */
-
 .intro-text-works {
   font-weight: 650;
   padding-top: 10px;
@@ -241,6 +237,7 @@ body {
   letter-spacing: 0.03em;
 }
 /**** Works section end ****/
+
 /*** About section **/
 .aboutme {
   height: 600px;
@@ -325,7 +322,6 @@ body {
 .push {
   float: right;
 }
-
 /*** About section **/
 
 /**** Footer section start ***/
@@ -343,7 +339,6 @@ body {
 }
 
 .contact-wrapper-two {
-  /* padding-top: 50px; */
   background-image: url("../images/contact_form_desktop.png");
   background-size: contain;
   background-position: center;
