@@ -4,8 +4,8 @@ html {
   box-sizing: border-box;
 }
 
-body { 
-  margin: 0; 
+body {
+  margin: 0;
   background-color: #f7f7f9;
 }
 
@@ -19,7 +19,7 @@ body {
 
 .bar-section {
   background-color: #fff;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .wrapper {
@@ -74,7 +74,6 @@ body {
   padding-bottom: 100px;
   background-image: url("../images/header_section_background.png");
   background-size: 100%;
-  background-position: contain;
   background-repeat: no-repeat;
   border-bottom-left-radius: 110px;
   background-color: #fff;
