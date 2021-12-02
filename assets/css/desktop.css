@@ -140,14 +140,26 @@ body {
 /*** Headline section End ***/
 
 /*** Works section **/
+.works {
+  display: grid;
+  justify-content: center;
+}
 
 .works-flex {
+  width: 1156px;
   border: 1px solid #dfe1e6;
   background: white;
-  margin: 142px;
   border-radius: 24px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.works > .works-flex {
+  margin-top: 142px;
+}
+
+.works-flex:last-child {
+  margin-bottom: 142px;
 }
 
 .start {
