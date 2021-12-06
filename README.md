@@ -2,7 +2,9 @@
 
 ![screenshot](assets/images/desktop1.png)
 
-[LIVE DEMO LINK](https://clintonjosephs.github.io/portfolio_website/)
+![screenshot](assets/images/desktop3.png)
+
+![screenshot](assets/images/desktop4.png)
 
 We updated the protofolio project to implement the use of media queries for screen based css changes and to achieve Responsive Web Design. Making further use of Grid and Flexbox for layouts
 
