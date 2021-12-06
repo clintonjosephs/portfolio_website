@@ -452,7 +452,7 @@ body {
 
 .contact-submit {
   width: 140px;
-  height: auto;
+  min-height: 48px;
   border-radius: 8px;
   background: #fff;
   color: #6070ff;

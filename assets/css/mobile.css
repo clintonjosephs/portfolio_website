@@ -16,6 +16,9 @@ body {
 }
 
 /** Nav section start */
+.welcome-section {
+  background-color: #fff;
+}
 
 .bar-section {
   background-color: #fff;
