@@ -1,4 +1,4 @@
-# Microverse Portfolio
+# My Portfolio
 
 ![screenshot](assets/images/desktop1.png)
 
