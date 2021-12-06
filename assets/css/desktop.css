@@ -29,7 +29,7 @@ body {
 }
 
 .wrapper {
-  height: 50px;
+  height: auto;
   margin-left: 155px;
   margin-right: 155px;
 }
@@ -123,7 +123,7 @@ body {
   display: flex;
   padding-left: 0;
   list-style: none;
-  width: 200px;
+  width: 40%;
   margin: 0 25px 0 0;
 }
 
@@ -131,6 +131,7 @@ body {
   font-size: 20px;
   color: #505f79;
   flex: 1;
+  margin: 5px;
 }
 
 .social-media a {
@@ -269,12 +270,12 @@ body {
 /*** About section **/
 
 .aboutme {
-  height: 600px;
+  height: auto;
 }
 
 .about-headline {
-  margin-left: 142px;
-  margin-right: 142px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .aboutme-wrapper {
@@ -294,8 +295,8 @@ body {
   align-items: center;
   font-size: 15px;
   font-weight: 500;
-  width: 130px;
-  height: 120px;
+  min-width: 130px;
+  min-height: 120px;
   padding-top: 12px;
   padding-left: 12px;
   display: inline-block;
@@ -303,8 +304,8 @@ body {
 }
 
 .style_skill {
-  width: 98px;
-  height: 24px;
+  width: auto;
+  height: auto;
 }
 
 .more_skills {
@@ -318,6 +319,7 @@ body {
   padding-left: 0;
   list-style: none;
   width: 100%;
+  height: auto;
 }
 
 .skills {
@@ -331,6 +333,7 @@ body {
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   color: #091e42;
+  height: auto;
 }
 
 .header-skill {
@@ -369,7 +372,7 @@ body {
   border-top-left-radius: 110px;
   margin-top: 0;
   border: transparent;
-  height: 850px;
+  height: auto;
 }
 
 .contact-wrapper-two {
@@ -422,7 +425,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 25px 30px 0 30px;
-  width: 600px;
+  width: auto;
 }
 
 .form-input {
@@ -443,13 +446,13 @@ body {
   font-size: 17px;
   border: 1px solid #cfd8dc;
   padding: 16px;
-  color: #b3bac5;
+  color: #172b4d;
   margin-bottom: 15px;
 }
 
 .contact-submit {
   width: 140px;
-  height: 48px;
+  height: auto;
   border-radius: 8px;
   background: #fff;
   color: #6070ff;
