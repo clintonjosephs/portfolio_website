@@ -5,6 +5,8 @@ html {
 
 body {
   background-color: #f7f7f9;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 *,
@@ -19,8 +21,9 @@ body {
 }
 
 .bar-section {
+  position: fixed;
   background-color: #fff;
-  margin-top: 0;
+  width: 100%;
 }
 
 .wrapper {
@@ -492,7 +495,7 @@ body {
 
 .menu-mobile > li a {
   color: white;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 /** MENU OVERLAY END ***/

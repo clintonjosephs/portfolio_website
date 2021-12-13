@@ -1,18 +1,25 @@
 {
-    "connector": {
-      "name": "local",
-      "options": {
-        "pattern": ["**", "!.git/**", "!node_modules/**"]
-      }
-    },
-    "extends": ["development"],
-    "formatters": ["stylish"],
-    "hints": [
-      "button-type",
-      "disown-opener",
-      "html-checker",
-      "meta-charset-utf-8",
-      "meta-viewport",
-      "no-inline-styles:error"
-    ]
-  }
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "extends": ["airbnb-base"],
+  "rules": {
+    "no-shadow": "off",
+    "no-param-reassign": "off",
+    "eol-last": "off",
+    "import/extensions": [ 1, {
+      "js": "always", "json": "always"
+    }]
+  },
+  "ignorePatterns": [
+    "dist/",
+    "build/"
+  ]
+}

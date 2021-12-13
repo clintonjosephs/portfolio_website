@@ -1,16 +1,21 @@
-let menu_overlay = document.querySelector('#menu-overlay');
+const menuOverlay = document.querySelector('#menu-overlay');
+const mobileMenuButton = document.querySelector('#mobileMenuButton');
 
 function mobileMenuToogle() {
-    menu_overlay.style.width = "100%";
+  menuOverlay.style.width = '100%';
 }
 
 function closeMobileMenu() {
-    menu_overlay.style.width = "0";
+  menuOverlay.style.width = '0';
 }
 
-let mobileMenuLinks = document.querySelectorAll('.menu-mobile li a');
-for (let i = 0; i < mobileMenuLinks.length; i++) {
-    mobileMenuLinks[i].addEventListener('click', function () {
-        closeMobileMenu();
-    });
+mobileMenuButton.addEventListener('click', () => {
+  mobileMenuToogle();
+});
+
+const mobileMenuLinks = document.querySelectorAll('.menu-mobile li a');
+for (let i = 0; i < mobileMenuLinks.length; i += 1) {
+  mobileMenuLinks[i].addEventListener('click', () => {
+    closeMobileMenu();
+  });
 }
