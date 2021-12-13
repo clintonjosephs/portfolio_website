@@ -100,4 +100,62 @@ for (let i = 0; i < projects.length; i+=1) {
 document.querySelector('#portfolio').innerHTML = projectsItemsBuild;
 
 /*** Dynamically adding works-flex items in works section end*/
+function displayProjectDescriptionPopup(value) {
+  const techData = technologies(true, projects[value].technologiesPopup);
+   const projectPopup = document.querySelector('#projectPopup');
+   const popupContentBuilder = `<div class="popup-content">
+                                   <div class="popup-header">
+                                       <div class="popup-title">
+                                           <div class="topic">
+                                               <h1>${projects[value].name}</h1>
+                                               <span class="close-popup">&times;</span>
+                                           </div>
+                                           <ul>
+                                           <li class="list-main">${projects[value].details[0]}</li>
+                                           <li class="titles-item">${projects[value].details[1]}</li>
+                                           <li class="titles-item">${projects[value].details[2]}</li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                                   <div class="popup-body">
+                                       <div class="work-image">
+                                           <img src="${projects[value].popupImageUrlMobile}" class="img-style" alt="${projects[value].name} project screenshot"/>
+                                           <img src="${projects[value].popupImageUrlDesktop}" class="img-style-desktop-popup" alt="${projects[value].name} project screenshot"/>
+                                       </div>
+                                       <div class="description-container">
+                                           <div class="project-text intro-message">
+                                               <p>
+                                               ${projects[value].bigDescription}
+                                               </p>
+                                           </div>
+                                           <div class="project-tags">
+                                               <div class="tags">
+                                                   <ul>
+                                                    ${techData[0]}
+                                                   </ul>
+                                                   <ul>
+                                                    ${techData[1]}
+                                                   </ul>
+                                               </div>
+                                               <div class="tags-buttons">
+                                                   <a href="${projects[value].linkLive}" class="btn-see-project">See live <i class="fa fa-rss"></i></a>
+                                                   <a href="${projects[value].linkSource}" class="btn-see-project">See source <i class="fa fa-github"></i></a>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>`;
+   projectPopup.innerHTML = popupContentBuilder;
+   projectPopup.style.display = 'block';
+   const closePopup = document.querySelector('.close-popup');
+     closePopup.addEventListener('click', () => {
+     projectPopup.style.display = 'none';
+   });
+}
+  const seeProjectButtons = document.querySelectorAll('.btn-see-project');
+  for (let c = 0; c < seeProjectButtons.length; c+=1) {
+  seeProjectButtons[c].addEventListener('click' , () => {
+      displayProjectDescriptionPopup(seeProjectButtons[c].getAttribute('project-index'));
+  });
+}
 
