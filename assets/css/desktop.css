@@ -187,6 +187,10 @@ body {
   display: none;
 }
 
+.img-style-desktop-popup {
+  display: block;
+}
+
 .img-style-desktop {
   display: block;
   transition: all 0.2s ease-in-out;
@@ -508,3 +512,19 @@ body {
 }
 
 /** MENU OVERLAY END ***/
+
+/** POPUP DESCRIPTION ***/
+.description-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-text {
+  width: 70%;
+}
+
+.project-tags > div {
+  margin-left: 25px;
+}
+
+/**** POPUP DESCRIPTION END **/
