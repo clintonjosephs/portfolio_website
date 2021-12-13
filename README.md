@@ -1,11 +1,14 @@
 # My Portfolio
 
-![screenshot](assets/images/mobile_menu.png)
+![screenshot](assets/images/modal_desktop.png)
+
+![screenshot](assets/images/modal_mobile.png)
 
 [LIVE DEMO LINK](https://clintonjosephs.github.io/portfolio_website/)
 
 Portfolio website to show better a sneak peak on the things I can do to your project. Live demo link has been added using github pages to give you a tour of the project! 
-Enjoy the swiftness of the mobile menu as you click on the navigation button while on mobile scree,
+Enjoy the swiftness of the mobile menu as you click on the navigation button while on mobile screen, 
+we have also added dynamic data using javascript objects to (modal window and dynamic presentation of the works section)
 Happy surfing!
 
 ## Built With
