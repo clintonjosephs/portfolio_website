@@ -103,7 +103,7 @@ function technologies(popup, techData) {
       } else {
         technologiesPopup += `<li class="lang ruby">${tech}</li>`;
       }
-      m+=1;
+      m += 1;
     }
   });
   return [technologies, technologiesPopup];
