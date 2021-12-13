@@ -144,6 +144,10 @@ body {
   display: block;
 }
 
+.img-style-desktop-popup {
+  display: none;
+}
+
 .img-style-desktop {
   display: none;
 }
@@ -462,8 +466,8 @@ body {
   top: 0;
   left: 0;
   backdrop-filter: blur(6px);
-  background: #6070ff;
   mix-blend-mode: multiply;
+  background: #6070ff;
   overflow-x: hidden;
   transition: 0.5s;
 }
