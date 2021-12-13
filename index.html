@@ -22,12 +22,12 @@
             <div class="wrapper">
                 <nav class="nav-bar">
                     <ul>
-                        <li class="logo"><a href="#" tabindex="1">My Logo</a></li>
-                        <li class="menu-desktop"><a href="#" tabindex="2">Portfolio</a></li>
-                        <li class="menu-desktop"><a href="#" tabindex="3">About</a></li>
-                        <li class="menu-desktop"><a href="#" tabindex="4">Contact</a></li>
+                        <li class="logo"><a href="#welcome" tabindex="1">My Logo</a></li>
+                        <li class="menu-desktop transforma"><a href="#portfolio" tabindex="2">Portfolio</a></li>
+                        <li class="menu-desktop transforma"><a href="#about" tabindex="3">About</a></li>
+                        <li class="menu-desktop transforma"><a href="#contact" tabindex="4">Contact</a></li>
                     </ul>
-                    <div class="menu" tabindex="2">
+                    <div class="menu" tabindex="2" id="mobileMenuButton">
                         <div class="toogle-btn"></div>
                         <div class="toogle-btn"></div>
                         <div class="toogle-btn"></div>
@@ -35,7 +35,7 @@
                 </nav>
             </div>
         </header>
-        <section class="welcome-section">
+        <section class="welcome-section" id="welcome">
             <div class="headline-wrapper">
                 <div class="headline-container">
                     <h1 class="intro-text">I’m Clinton <br /> Glad to see you!</h1>
@@ -46,16 +46,16 @@
                         <h3>LET'S CONNECT</h3>
                     </div>
                     <ul class="social">
-                        <li class="social-media"><a href="https://twitter.com/clintonmbonu_" tabindex="5"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social-media"><a href="https://linkedin.com/in/clinton-mbonu" tabindex="6"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="social-media"><a href="#" tabindex="7"><i class="fa fa-medium"></i></a></li>
-                        <li class="social-media"><a href="https://github.com/clintonjosephs" tabindex="8"><i class="fa fa-github"></i></a></li>
-                        <li class="social-media"><a href="#" tabindex="9"><i class="fa fa-angellist"></i></a></li>
+                        <li class="social-media transforma"><a href="https://twitter.com/clintonmbonu_" tabindex="5"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-media transforma"><a href="https://linkedin.com/in/clinton-mbonu" tabindex="6"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="social-media transforma"><a href="#" tabindex="7"><i class="fa fa-medium"></i></a></li>
+                        <li class="social-media transforma"><a href="https://github.com/clintonjosephs" tabindex="8"><i class="fa fa-github"></i></a></li>
+                        <li class="social-media transforma"><a href="#" tabindex="9"><i class="fa fa-angellist"></i></a></li>
                     </ul>
                 </div>
             </div>
         </section>
-        <section class="works">
+        <section class="works" id="portfolio">
             <div class="works-flex">
                 <div class="works-flex-item work-image start">
                     <img src="assets/images/portfolio_snapshoot/snapshoot1.png" class="img-style" alt="Tonic project dashboard for daily selections" tabindex="9"/>
@@ -110,7 +110,7 @@
                     <div class="works-flex-item">
                         <ul class="lang-container">
                             <li class="lang">html</li>
-                            <li class="lang">Ruby on rails</li>
+                            <li class="lang ruby">Ruby on rails</li>
                             <li class="lang">css</li>
                             <li class="lang">javascript</li>
                         </ul>
@@ -143,7 +143,7 @@
                     <div class="works-flex-item">
                         <ul class="lang-container">
                             <li class="lang">html</li>
-                            <li class="lang">Ruby on rails</li>
+                            <li class="lang ruby">Ruby on rails</li>
                             <li class="lang">css</li>
                             <li class="lang">javascript</li>
                         </ul>
@@ -175,7 +175,7 @@
                     <div class="works-flex-item">
                         <ul class="lang-container">
                             <li class="lang">html</li>
-                            <li class="lang">Ruby on rails</li>
+                            <li class="lang ruby">Ruby on rails</li>
                             <li class="lang">css</li>
                             <li class="lang">javascript</li>
                         </ul>
@@ -188,7 +188,7 @@
                 </div>
             </div>
         </section>
-        <section class="aboutme">
+        <section class="aboutme" id="about">
             <div class="aboutme-wrapper">
                 <div class="about-headline">
                     <h2 class="intro-text-about">About<br> Myself</h2>
@@ -197,11 +197,11 @@
                         <h3>LET'S CONNECT</h3>
                     </div>
                     <ul class="social">
-                        <li class="social-media"><a href="https://twitter.com/clintonmbonu_" tabindex="17"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social-media"><a href="https://linkedin.com/in/clinton-mbonu" tabindex="18"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="social-media"><a href="#" tabindex="19" ><i class="fa fa-medium"></i></a></li>
-                        <li class="social-media"><a href="https://github.com/clintonjosephs" tabindex="20"><i class="fa fa-github"></i></a></li>
-                        <li class="social-media"><a href="#" tabindex="21"><i class="fa fa-angellist"></i></a></li>
+                        <li class="social-media transforma"><a href="https://twitter.com/clintonmbonu_" tabindex="17"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-media transforma"><a href="https://linkedin.com/in/clinton-mbonu" tabindex="18"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="social-media transforma"><a href="#" tabindex="19" ><i class="fa fa-medium"></i></a></li>
+                        <li class="social-media transforma"><a href="https://github.com/clintonjosephs" tabindex="20"><i class="fa fa-github"></i></a></li>
+                        <li class="social-media transforma"><a href="#" tabindex="21"><i class="fa fa-angellist"></i></a></li>
                     </ul>
                     <div class="btn_see_resume_contain" >
                         <a href="#" class="btn-see-resume" tabindex="22">Get my resume</a>
@@ -252,7 +252,7 @@
             </div>
            
         </section>
-        <footer class="footer-container">
+        <footer class="footer-container" id="contact">
             <div class="contact-wrapper">
                 <div class="contact-wrapper-two">
                     <div class="contactme-body">
@@ -273,5 +273,16 @@
                 </div>
             </div>
         </footer>
+        <div class="menu-overlay" id="menu-overlay">
+            <a href="#" class="closeMenu" onclick="closeMobileMenu()"> 
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </a>
+            <ul class="menu-mobile">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <script src="./assets/js/portfolio.js"></script>
     </body>
 </html>
