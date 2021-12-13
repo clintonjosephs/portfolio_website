@@ -492,6 +492,7 @@ body {
 
 .menu-mobile > li a {
   color: white;
+  text-decoration:none;
 }
 
 /** MENU OVERLAY END ***/
