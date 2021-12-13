@@ -1,16 +1,19 @@
 # My Portfolio
 
-![screenshot](assets/images/desktop1.png)
+![screenshot](assets/images/mobile_menu.png)
 
 [LIVE DEMO LINK](https://clintonjosephs.github.io/portfolio_website/)
 
-Portfolio website to show better a sneak peak on the things I can do to your project. Live demo link has been added using github pages to give you a tour of the project! Happy surfing!
+Portfolio website to show better a sneak peak on the things I can do to your project. Live demo link has been added using github pages to give you a tour of the project! 
+Enjoy the swiftness of the mobile menu as you click on the navigation button while on mobile scree,
+Happy surfing!
 
 ## Built With
 
 - HTML
 - CSS
-- HTML & CSS Linter
+- Javascript
+- HTML & CSS & Javascript Linter
 
 
 ## Getting Started
