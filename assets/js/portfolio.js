@@ -100,3 +100,4 @@ for (let i = 0; i < projects.length; i+=1) {
 document.querySelector('#portfolio').innerHTML = projectsItemsBuild;
 
 /*** Dynamically adding works-flex items in works section end*/
+
