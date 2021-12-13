@@ -56,15 +56,23 @@ body {
   flex: 10;
   -webkit-transform: rotateX(360deg);
   transform: rotateX(360deg);
-  transition: transform 2s ease-in-out;
 }
 
 .logo a {
   color: #6070ff;
 }
 
+.transforma {
+  transition: transform 0.2s ease-in-out;
+}
+
 .menu-desktop a {
   color: #344563;
+  cursor: pointer;
+}
+
+.transforma:hover {
+  transform: scale(1.1);
 }
 
 .menu-desktop {
@@ -141,6 +149,10 @@ body {
 /*** Headline section End ***/
 
 /*** Works section **/
+.ruby {
+  display: block;
+}
+
 .works {
   display: grid;
   justify-content: center;
@@ -380,7 +392,6 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
- 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -489,3 +500,11 @@ body {
 }
 
 /**** Footer section end ***/
+
+/*** MENU OVERLAY ***/
+
+.menu-overlay {
+  display: none;
+}
+
+/** MENU OVERLAY END ***/

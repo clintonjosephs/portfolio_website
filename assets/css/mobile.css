@@ -1,11 +1,9 @@
 html {
   background-color: #fff;
   font-family: 'Poopins', sans-serif;
-  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
   background-color: #f7f7f9;
 }
 
@@ -135,6 +133,9 @@ body {
 /**  Headline section end */
 
 /** Works Section Start **/
+.ruby {
+  display: none;
+}
 
 .img-style {
   display: block;
@@ -446,3 +447,51 @@ body {
 }
 
 /*** Contact me end ***/
+
+/*** MENU OVERLAY ***/
+
+.menu-overlay {
+  display: block;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(6px);
+  background: #6070ff;
+  mix-blend-mode: multiply;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.closeMenu {
+  height: 12px;
+  width: 12px;
+  border-radius: 0;
+  float: right;
+  margin-right: 38px;
+  margin-top: 62px;
+  color: white;
+}
+
+.menu-mobile {
+  list-style: none;
+  padding: 106px 96px 0 28px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+}
+
+.menu-mobile > li {
+  padding-bottom: 30px;
+}
+
+.menu-mobile > li a {
+  color: white;
+}
+
+/** MENU OVERLAY END ***/
