@@ -1,8 +1,8 @@
 # My Portfolio
 
-![screenshot](assets/images/modal_desktop.png)
+![screenshot](assets/images/portfolio_snapshoot/modal_desktop.png)
 
-![screenshot](assets/images/modal_mobile.png)
+![screenshot](assets/images/portfolio_snapshoot/modal_mobile.png)
 
 [LIVE DEMO LINK](https://clintonjosephs.github.io/portfolio_website/)
 
