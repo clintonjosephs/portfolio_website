@@ -12,3 +12,18 @@ function showMessage(input, message, type) {
 function showError(input, message) {
 	return showMessage(input, message, false);
 }
+function validateEmail(input, invalidMsg) {
+    const email = input.value.trim();
+    if (email !== email.toLowerCase()) {
+        return showError(input, invalidMsg);
+    }
+    return true;
+}
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    let emailValid = validateEmail(form.elements["user_email"], EMAIL_LOWERCASE);
+    if (emailValid) {
+        form.submit();
+        form.reset();
+    }
+});
