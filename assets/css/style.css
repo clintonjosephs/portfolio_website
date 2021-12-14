@@ -261,11 +261,11 @@ a.btn-see-resume:active {
 
 /*** Popup styling end **/
 .contact-form > span {
-  color: white;
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
   align-self: center;
   padding-bottom: 5px;
+  color: red;
 }
 
 .error {
