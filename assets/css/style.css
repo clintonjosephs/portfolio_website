@@ -260,3 +260,21 @@ a.btn-see-resume:active {
 }
 
 /*** Popup styling end **/
+.contact-form > span {
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  align-self: center;
+  padding-bottom: 5px;
+  color: red;
+}
+
+.error {
+  margin-bottom: 15px;
+  height: 48px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  border: 1px solid red;
+  padding: 16px;
+  color: #172b4d;
+}
