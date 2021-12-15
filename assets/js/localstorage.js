@@ -6,7 +6,7 @@ function useLocalStorage() {
   const contactFormData = {
     name: clientName.value,
     email: clientEmail.value,
-    message: clientMessage.value,
+    message: clientMessag.value,
   };
   localStorage.setItem('contactFormData', JSON.stringify(contactFormData));
 }
