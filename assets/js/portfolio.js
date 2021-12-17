@@ -159,7 +159,6 @@ document.querySelector('#portfolio').innerHTML = projectsItemsBuild;
 
 /** * Dynamically adding works-flex items in works section end */
 function displayProjectDescriptionPopup(value) {
-  
   const techData = technologies(true, projects[value].technologiesPopup);
   const projectPopup = document.querySelector('#projectPopup');
   const popupContentBuilder = `<div class="popup-content">
