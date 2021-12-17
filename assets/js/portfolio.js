@@ -1,5 +1,4 @@
 /** Create data object */
-
 const projects = [{
   name: 'Tonic',
   details: ['CANOPY', 'Back End Dev', '2015'],
@@ -149,7 +148,7 @@ for (let i = 0; i < projects.length; i += 1) {
                               </div>
                               <div class="works-flex-item">
                                   <div class="btn-see">
-                                      <a href="#" class="btn-see-project" project-index="${i}">See project</a>
+                                      <a href="javascript:void(0)" class="btn-see-project" project-index="${i}">See project</a>
                                   </div>
                               </div>
                           </div>
