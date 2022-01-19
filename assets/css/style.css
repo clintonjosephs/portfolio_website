@@ -196,6 +196,7 @@ a.btn-see-resume:active {
 
 .work-image > img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .btn-light {
