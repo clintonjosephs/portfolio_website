@@ -1,8 +1,25 @@
 /** Create data object */
 const projects = [
   {
+    name: "MovieSpot",
+    details: ["FACEBOOK", "Front End Dev", "2022"],
+    smallDescription:
+      "MovieSpot is your favourite spot to find the latest and your favorite TV shows, with a really cool infinite scroll feature!. You can view the details of the show, like a show or even comment.",
+    bigDescription: "MovieSpot is your favourite spot to find the latest and your favorite TV shows, with a really cool infinite scroll feature!. You can view the details of the show, like a show or even comment. You can also see other comments which might give you a general idea about what people think about the show. It is built with HTML, CSS and JavaScript with data from the TvMaze API(tv show data) and the Involvement API(likes and comments)",
+    imageUrlMobile: "assets/images/portfolio_snapshoot/moviespot/presentation.gif",
+    imageUrlDesktop: "assets/images/portfolio_snapshoot/moviespot/presentation.gif",
+    technologiesPopup: ["html", "bootstrap", "css", "javaScript", "webpack", "async", "await"],
+    technologies: ["html", "css", "javaScript"],
+    popupImageUrlMobile:
+      "assets/images/portfolio_snapshoot/moviespot/presentation.gif",
+    popupImageUrlDesktop:
+      "assets/images/portfolio_snapshoot/moviespot/presentation.gif",
+    linkLive: "https://clintonjosephs.github.io/MovieSpot/",
+    linkSource: "https://github.com/clintonjosephs/MovieSpot.git"
+  },
+  {
     name: "LeaderBoard",
-    details: ["Fun and Games", "Full Stack Dev", "2022"],
+    details: ["Fun and Games", "Front End Dev", "2022"],
     smallDescription:
       "The leaderboard website displays scores submitted by different players. It also allows you to submit your score.",
     bigDescription:
@@ -42,24 +59,6 @@ const projects = [
     technologies: ["html", "css", "javaScript"],
     linkLive: "https://clintonjosephs.github.io/to-do-list/",
     linkSource: "https://github.com/clintonjosephs/to-do-list.git",
-  },
-  {
-    name: "Facebook 360",
-    details: ["FACEBOOK", "Full Stack Dev", "2015"],
-    smallDescription:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    bigDescription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageUrlMobile: "assets/images/portfolio_snapshoot/snapshoot3.png",
-    imageUrlDesktop: "assets/images/portfolio_snapshoot/snapshoot_desktop3.png",
-    technologiesPopup: ["html", "Ruby on rails", "css", "javaScript"],
-    technologies: ["html", "Ruby on rails", "css", "javaScript"],
-    popupImageUrlMobile:
-      "assets/images/portfolio_snapshoot/modal_snapshoot_mobile.png",
-    popupImageUrlDesktop:
-      "assets/images/portfolio_snapshoot/modal_snapshoot.png",
-    linkLive: "",
-    linkSource: "",
   },
   {
     name: "Uber navigation",
