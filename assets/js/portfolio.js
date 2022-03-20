@@ -7,14 +7,14 @@ const projects = [
       "Stock metrics is a web(mobile-focused) app for checking the companies listed on the stock exchange and seeing their live metrics. Its data is consumed from the Financial modeling API",
     bigDescription:
       "Stock metrics is a web(mobile-focused) app for checking the companies listed on the stock exchange and see their live metrics. Its data is consumed from the Financial modelling API. It is built using React, Redux, and React-bootsrap, Skeleton Loader, Recharts.",
-    imageUrlMobile: "assets/images/portfolio_snapshoot/snapshoot4.png",
-    imageUrlDesktop: "assets/images/portfolio_snapshoot/snapshoot_desktop4.png",
+    imageUrlMobile: "assets/images/portfolio_snapshoot/stock-metrics/presentation.gif",
+    imageUrlDesktop: "assets/images/portfolio_snapshoot/stock-metrics/presentation.gif",
     technologiesPopup: ["React", "React Redux", "css", "JavaScript", "React-bootstrap", "Recharts"],
     technologies: ["React", "React Redux", "css", "javaScript"],
     popupImageUrlMobile:
-      "assets/images/portfolio_snapshoot/modal_snapshoot_mobile.png",
+    "assets/images/portfolio_snapshoot/stock-metrics/presentation.gif",
     popupImageUrlDesktop:
-      "assets/images/portfolio_snapshoot/modal_snapshoot.png",
+    "assets/images/portfolio_snapshoot/stock-metrics/presentation.gif",
     linkLive: "",
     linkSource: "",
   },
